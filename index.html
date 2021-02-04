@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Квиз</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="quiz" id="quiz">
+            <h2 class="quiz__h2"><span class="quiz_bold">Получите предварительный просчет стоимости, <br></span>ответив на 5 простых вопросов за 1 минуту</h2>
+    
+            <div class="quiz_row">
+                <div class="quiz__prize">
+                    <h4 class="quiz__h4">После расчёта Вы получите:</h4>
+                    <ul class="quiz__list">
+                        <li class="quiz__item">
+                            <img src="img/prize1.png" alt="Иконка подарка">
+                            <p>Подарок ценой <br><span class="quiz__item_bold">до 5 000 руб.</span><br>за ваши ответы</p>
+                        </li>
+                        <li class="quiz__item">
+                            <img src="img/prize2.png" alt="Иконка подарка">
+                            <p><span class="quiz__item_bold">3 варианта</span><br>сметы по вашим параметрам</p>
+                        </li>
+                        <li class="quiz__item">
+                            <img src="img/prize3.png" alt="Иконка подарка">
+                            <p><span class="quiz__item_bold">30% скидка</span><br>на все варианты</p>
+                        </li>
+                    </ul>
+                    <p class="quiz__addition">А также детальное описание всех типов окон и методы их применения.</p>
+                </div>
+    
+                <div class="quiz__questions quiz__question_1">
+                    <p class="quiz__step quiz__step1">Шаг 1 из 4</p>
+                    <h3 class="quiz__question">1. Какой объект планируется остеклить?</h3>
+                    <div class="quiz__answers quiz__answers_step1">
+                        <div class="quiz__answer quiz__answer_step1">
+                            <label>
+                                <img src="img/answer1.png" alt="Фото склада">
+                                <input type="radio" name="q1" class="quiz__input">
+                                <p>логистический центр или склад</p>
+                            </label>
+                        </div>
+                        <div class="quiz__answer quiz__answer_step1">
+                            <label>
+                                <img src="img/answer2.png" alt="Фото производства">
+                                <input type="radio" name="q1" class="quiz__input">
+                                <p>производственное помещение</p>
+                            </label>
+                        </div>
+                        <div class="quiz__answer quiz__answer_step1">
+                            <label>
+                                <img src="img/answer3.png" alt="Фото учреждения">
+                                <input type="radio" name="q1" class="quiz__input">
+                                <p>учебное, детское или мед.учреждение</p>
+                            </label>
+                        </div>
+                        <div class="quiz__answer quiz__answer_step1">
+                            <label>
+                                <img src="img/answer4.png" alt="Фото учреждения">
+                                <input type="radio" name="q1" class="quiz__input">
+                                <p>элитный жил.комплекс</p>
+                            </label>
+                        </div>
+                        <div class="quiz__answer quiz__answer_step1">
+                            <label>
+                                <img src="img/answer5.png" alt="Фото учреждения">
+                                <input type="radio" name="q1" class="quiz__input">
+                                <p>бизнес-центр / офисное здание</p>
+                            </label>
+                        </div>
+                        <div class="quiz__answer quiz__answer_step1">
+                            <label>
+                                <img src="img/answer6.png" alt="Фото учреждения">
+                                <input type="radio" name="q1" class="quiz__input">
+                                <p>торговое предприятие</p>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quiz__questions quiz__question_2">
+                    <p class="quiz__step quiz__step2">Шаг 2 из 4</p>
+                    <h3 class="quiz__question">2. Какой тип остекления интересует?</h3>
+                    <div class="quiz__answers quiz__answers_step2">
+                        <div class="quiz__answer quiz__answer_step2">
+                            <input type="radio" name="q2" id="q2_1" class="step2_input quiz__input">
+                            <label for="q2_1">тёплое</label>
+                        </div>
+
+                        <div class="quiz__answer quiz__answer_step2">
+                            <input type="radio" name="q2" id="q2_2" class="step2_input quiz__input">
+                            <label for="q2_2">холодное</label>
+                        </div>
+
+                        <div class="quiz__answer quiz__answer_step2">
+                            <input type="radio" name="q2" id="q2_3" class="step2_input quiz__input">
+                            <label for="q2_3">не знаю, в чем разница, нужна консультация</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quiz__questions quiz__question_3">
+                    <p class="quiz__step quiz__step3">Шаг 3 из 4</p>
+                    <h3 class="quiz__question">3. Выберите дополнительную фурнитуру</h3>
+                    <div class="quiz__answers quiz__answers_step3">
+                        <div class="quiz__answer quiz__answer_step3">
+                            <label>
+                                <img src="img/answer3_1.png" alt="Фото отлива">
+                                <input type="radio" name="q3" class="quiz__input">
+                                <p>отлив</p>
+                            </label>
+                        </div>
+                        <div class="quiz__answer quiz__answer_step3">
+                            <label>
+                                <img src="img/answer3_2.png" alt="Фото подоконника">
+                                <input type="radio" name="q3" class="quiz__input">
+                                <p>Подоконник</p>
+                            </label>
+                        </div>
+                        <div class="quiz__answer quiz__answer_step3">
+                            <label>
+                                <img src="img/answer3_3.png" alt="Фото откоса">
+                                <input type="radio" name="q3" class="quiz__input">
+                                <p>Откосы</p>
+                            </label>
+                        </div>
+                        <div class="quiz__answer quiz__answer_step3">
+                            <label>
+                                <img src="img/answer3_4.png" alt="Фото москитной сетки">
+                                <input type="radio" name="q3" class="quiz__input">
+                                <p>Москитная сетка</p>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quiz__questions quiz__question_4">
+                    <p class="quiz__step quiz__step4">Шаг 4 из 4</p>
+                    <h3 class="quiz__question">4. Укажите, пожалуйста, количество окон, которое необходимо <br>просчитать</h3>
+                    <div class="quiz__answers quiz__answers_step4">
+                        <div class="quiz__slider-output" id="slider-output-step4">5</div>
+                        <div class="quiz__slider">
+                            <p class="quiz__slider-p">1</p>
+                            <input type="range" min="1" max="25" value="5" step="1" class="quiz__slider-input quiz__input" id="slider-step4" name="q4">
+                            <p class="quiz__slider-p">25</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="quiz__explanation">
+                    <div class="quiz__union">
+                        <p>Для более точного расчета стоимости выберите вариант, который вам больше подходит по цене</p>
+                    </div>
+                    <p class="quiz__post">Инженер - замерщик</p>
+                    <p class="quiz__name">Алексей</p>
+                </div>
+    
+            </div>
+            
+            <div class="quiz__control">
+                <button class="quiz__back" id="btn-back" disabled>Назад</button>
+                <button class="quiz__next" id="btn-next" disabled>Далее</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Подключение библиотеки jQuery -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
